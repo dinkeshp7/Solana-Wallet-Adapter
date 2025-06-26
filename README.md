@@ -61,11 +61,11 @@ All components use useWallet, useConnection, and handle transactions using Solan
 
 #### File Structure
 
-📁 components/           // Modular React components <br/>
-📁 public/               // Static assets <br/>
-📁 pages/                // Next.js routes <br/>
-📁 styles/               // Tailwind + globals <br/>
-.env.local               // Devnet RPC endpoint config <br/>
+📁 components/           // Modular React components 
+📁 public/               // Static assets 
+📁 pages/                // Next.js routes 
+📁 styles/               // Tailwind + globals 
+.env.local               // Devnet RPC endpoint config 
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
