@@ -1,3 +1,73 @@
+# 🔐 Solana Wallet Adapter UI
+
+A stylish and minimal web interface built using React and Solana Wallet Adapter that lets users easily interact with the Solana Devnet. The project supports wallet connection, SOL airdrop, balance check, transaction signing, token creation UI, and more.
+
+![Demo UI](./public/demo.png) <!-- Replace with your actual path if needed -->
+
+---
+
+## ✨ Features
+
+- 🔌 Connect/Disconnect Phantom or any Solana-compatible wallet
+- 💸 Airdrop SOL directly to your wallet (Devnet)
+- 💰 Send SOL to another address
+- 📊 View real-time SOL balance
+- 🖋️ Sign a message using your wallet
+- 🪙 UI to Create Custom SPL Tokens (WIP)
+- 🧪 Token Pool Interface (Placeholder for future integration)
+- 📱 Responsive and modern UI with Tailwind CSS
+
+---
+
+## 🧠 Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Blockchain SDK**: [@solana/web3.js](https://solana-labs.github.io/solana-web3.js/)
+- **Wallet Handling**: [Solana Wallet Adapter](https://github.com/solana-labs/wallet-adapter)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 📦 Getting Started
+
+### 🔧 Prerequisites
+
+- Node.js v16+
+- npm or yarn
+- Phantom Wallet (or any Solana wallet)
+
+### 🚀 Installation
+
+```bash
+git clone https://github.com/dinkeshp7/Solana-Wallet-Adapter.git
+cd Solana-Wallet-Adapter
+npm install
+# or
+yarn install
+
+#### Component Overview
+Browse components/ to understand modular structure:
+
+Component	Purpose
+WalletContextProvider.tsx	Wraps the app with wallet provider context
+AirDrop.tsx	Airdrop test SOL tokens to connected wallet
+SendSol.tsx	Transfer SOL to another address
+CheckBalance.tsx	Fetch and display live SOL balance
+SignMessage.tsx	Sign arbitrary text messages
+CreateToken.tsx	UI for minting custom tokens (under dev)
+Pool.tsx	Placeholder for liquidity pool logic
+
+All components use useWallet, useConnection, and handle transactions using Solana’s web3.js.
+
+#### File Structure
+
+📁 components/           // Modular React components <br/>
+📁 public/               // Static assets <br/>
+📁 pages/                // Next.js routes <br/>
+📁 styles/               // Tailwind + globals <br/>
+.env.local               // Devnet RPC endpoint config <br/>
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
