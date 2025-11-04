@@ -17,14 +17,6 @@ A stylish and minimal web interface built using React and Solana Wallet Adapter 
 - 🧪 Token Pool Interface (Placeholder for future integration)
 - 📱 Responsive and modern UI with Tailwind CSS
 
----
-
-## 🧠 Tech Stack
-
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Blockchain SDK**: [@solana/web3.js](https://solana-labs.github.io/solana-web3.js/)
-- **Wallet Handling**: [Solana Wallet Adapter](https://github.com/solana-labs/wallet-adapter)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 
 ---
 
